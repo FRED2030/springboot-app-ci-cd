@@ -6,7 +6,7 @@
     "jenkinsfile": "terraform/Jenkinsfile"
   },
   {
-    "name": "infrastructure-configuration-pipeline",
+    "name": "ansible-pipeline",
     "repo": "https://github.com/FRED2030/springboot-app-ci-cd.git",
     "branch": "main",
     "jenkinsfile": "ansible/Jenkinsfile"
