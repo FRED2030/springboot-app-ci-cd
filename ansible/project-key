@@ -1,9 +1,27 @@
-[jenkins]
-54.175.73.245 ansible_ssh_user=ec2-user ansible_private_key_file=project-key ## Jenkins_server
-
-[servers]
-100.25.47.182 ansible_ssh_user=ec2-user ansible_private_key_file=project-key   ## Monlithic_server
-34.224.63.188 ansible_ssh_user=ec2-user ansible_private_key_file=project-key  ## Nexus_server
-52.91.154.86 ansible_ssh_user=ec2-user ansible_private_key_file=project-key    ## Sonarqube_serve
-54.236.28.247 ansible_ssh_user=ec2-user ansible_private_key_file=project-key   ## Microservice_server
-
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAuMRxCVC1vTG/awmeJJMsw3v0cOX2Al1TQ/zbwwA5FIYjytDU
+oMFn4CwJ174ft/DKBNJZV2CuhsLI35caP7xMwQNvqglQx5Fc7EX3PLV0cMg31+8d
+b8IMquQJrsJ7IGZamb+Cru2m2HVR0Ss+mfw1o6e60b9BPP11lsQE9RIoXS2+A0XF
+DKy9k+1j5sDghXba0kmMTkPcmkZu8MnxzRHvWFivvtkpykaMpq2SMfMn8GdMD0d5
+kdQUg1EOAz84RNKzlpqt/N949dz8E39R8/P1k8Vzc90rzdvkBSat9xfgBIANfUjh
+Nj5WdeDJ9UFuEoGJFOHT0Q1OehuFGf3qb43fDwIDAQABAoIBADanlTBGOZw/bPoC
+nE8BYgppTkNfIshMRucjkvY5yKizjT7fSyZKT6nWHQs+aC+HAJswhdD8/mNKlxTc
+o50a3DF0DMHlg4mlDDGv+JRysID0GOC9EJ4QbqLWVa7mRHmvDTnRlpycG/CHs64F
+9ryiCFPit7Z3tpqN9wyj6zt7JYl6DotPIYuKa2/mg+T4BvWLxIgESbtQeizb1NR0
+QUKFC7CDMRWEIlog4kaUVPSt615eLr9xwg/Nq5+19EcfRSi5e4wDul5QYJ0nyn8I
+6WkdWIgS7NBHe+7oo6ivK5wiKIbnLRmFmOj6lctOfgGYUcGHS1bn8y2KTAZxXVbo
+CknFcLECgYEA+XnMrtNRv+KuBbOIHReLnDsrMSt5+Om0L0+nM2Ipf/Ho8pfaMEq4
+vgl976lNPbv7Mci1ofb3t1cc4wRxejeWvK4/QGdQUQhtdEQPI9jbgzO1LHq4btT9
+Q4amfnr9HiKbuBR+SVZZU3DSNJtxYsk9yqvo6u3ijuHek94fC2oJKq0CgYEAvZlt
+7h+hu44zdZtcUDRi9rPyyA8wZYH0w9aTriNo68ZFCbU6gZ25pMlPfhLRYuy/z2fr
+fK2kdbdrtcUaHmX+FJLZN7tlY2JnX8l6KFJPfdhfO91hvo02K9i1iAynaaE9/5Ci
+1ttVCUfR2PzeZMtgd6BdeyF6Hl+Rif2MnLTdBCsCgYAvcDe5rrlG0aXhs6fYUFfd
+12p5KRlCeb4nmO/kV3AowilXqAR3Vl4W1Ns7rWfgq1QyvUW8jKfCFzCJAplJcjSZ
+oFCqwHqHTiDyENcIK/5hzn1O/e8ANEQMiRgzyNNE3bPapxr0exT1RujR1BUVgcrc
+NSBPO/juzohyebRRiVJA6QKBgBA+iAOh5Cp8mX4XDIa2pk/6xO9NFdlsk/r/dHG0
+CPZCa4HUbCnUyKYMtWnY1OXD4P81KSDqg6+uQmU1ePJnzKgYmNHElYA5WyAC1BuG
+Sdc/ZZFse0ZnNN/21j7Mzr8nGHe//aOo8RU1eQ49RBSgtCgrrjaxfJQDniWTequm
+d1U3AoGBAI1e1bbn8lVlP0gjJ57fYxgj+Wp4b+jiJnmajC577KweG1DTw3+jo5ZP
+Ns/8fbsSQWMJL6dTVQsa8H/K9xLCciYcCFLWQXfcc1ajJV/dHI4H3ZQFEAymMask
+HoO65Txq990b8BBicmHu0TY+8tBwyZDf0nC5C5AWRjVEXCUcgFjG
+-----END RSA PRIVATE KEY-----
