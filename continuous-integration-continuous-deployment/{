@@ -1,0 +1,58 @@
+Script started on 2024-07-09 13:01:14+0000
+                  def nexusCredentialsId = "${NEXUS_CREDENTIAL}"
+                  def groupId = 'com.app'
+                  def artifactId = 'blog'
+                  def version = ']0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[?1034h[root@jenkins continuous-integration-continuous-deployment]#                   def nexusCredentialsId = "${NEXUS_CREDENTIAL}"
+bash: def: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                   def groupId = 'com.app'
+bash: def: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                   def artifactId = 'blog'
+bash: def: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                   def version = '0.0.1-SNAPSHOT'
+bash: def: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                   def packaging = 'jar'
+bash: def: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                   def artifactPath = "target/${artifactId}-${version}.${ packaging}"
+bash: def: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                 nexusArtifactUploader(
+bash: syntax error near unexpected token `newline'
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     nexusVersion: 'nexus3',
+bash: nexusVersion:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     protocol: 'http',
+bash: protocol:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     nexusUrl: nexusUrl,
+bash: nexusUrl:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     groupId: groupId,
+: '',
+                         file: artifactPath,bash: groupId:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     version: version,
+bash: version:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     repository: 'maven-snapshots',
+bash: repository:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     credentialsId: nexusCredentialsId,
+bash: credentialsId:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                     artifacts: [
+bash: artifacts:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                         [artifactId: artifactId,
+bash: [artifactId:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                          classifier: '',
+bash: classifier:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                          file: artifactPath,
+bash: file:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                          type: packaging,
+bash: type:: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]# [H[2J[root@jenkins continuous-integration-continuous-deployment]#                          type: packaging,[H[2J[root@jenkins continuous-integration-continuous-deployment]#                          type: packaging,file: artifactPath,[3Ptype: packaging,[K                         type: packaging,[K
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd/continuous-integration-continuous-deployment[root@jenkins continuous-integration-continuous-deployment]#                          type: packaging,file: artifactPath,[4Pclassifier: '',file: artifactPath,[3Ptype: packaging,[Kcd ..
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# cd ..                         type: packaging,[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[Kcd ..                         type: packaging,file: artifactPath,[4Pclassifier: '',[artifactId: artifactId,[16Partifacts: [credentialsId: nexusCredentialsId,[4Prepository: 'maven-snapshots',credentialsId: nexusCredentialsId,[22Partifacts: [    [artifactId: artifactId,[8P classifier: '',file: artifactPath,[3Ptype: packaging,[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[K[K[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# 
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# l[H[2J[root@jenkins springboot-app-ci-cd]# l[H[2J[root@jenkins springboot-app-ci-cd]# lcd ..                         type: packaging,[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kl[Kcd ~
+bash: lcd: command not found
+]0;root@jenkins:~/springboot-app-project/springboot-app-ci-cd[root@jenkins springboot-app-ci-cd]# exit
+exit
+
+Script done on 2024-07-09 13:03:00+0000
